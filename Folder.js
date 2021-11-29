@@ -21,7 +21,7 @@ const rmdir = async folder => {
 }
 const Folder = {
     async read(folder, delegate){
-        delegate = delegate || function(filePath){return filePath}
+        delegate = delegate || async function(filePath){return filePath}
         let files = await readdir(folder)
         let justFiles = []
         let upper = files.length

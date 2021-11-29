@@ -83,4 +83,4 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-myCollage.png
+myCollage*.png
